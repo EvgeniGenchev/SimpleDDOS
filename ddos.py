@@ -11,7 +11,7 @@ IP                  = '0.0.0.0'
 PORT                = 9999
 MAX_CONNECTIONS     = 10
 REQUEST             = "GET /HTTP/1.1\r\nHost: google.com\r\n\r\n" # Hacking google like this is borderline imposible
-freq                = 0.2 #sec
+FREQ                = 0.2 #sec
 
 def attack():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
